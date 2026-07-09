@@ -92,3 +92,20 @@ Rate limiting
 Docker
 Horizontal scalability
 Backend architecture
+
+
+# Now here's the real part
+## Where is this type of technology used in nowadays world?
+
+Imagine a situation, a hot topic of nowadays are definitely SaaS, some of them can give you access for public API, which is pretty easy to use, you have your own API key and can sent requests to some endpoints.
+Without rate limiting one client could potentially:
+- 🕒⏳ overload the API with a thousand requests per second
+- make outage
+- make higher infrastructure costs
+
+## Real life use case
+- Stripe API
+- GitHub API
+- Twitter API
+- OpenAI API
+- Google Cloud API
