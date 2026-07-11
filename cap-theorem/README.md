@@ -90,11 +90,11 @@ Synchronization is **manual**, allowing inconsistencies to be observed.
 ```text
 cap-theorem/
 
-├── node-a/
+├── nodeA/
 │   ├── server.js
 │   └── database.json
 │
-├── node-b/
+├── nodeB/
 │   ├── server.js
 │   └── database.json
 │
